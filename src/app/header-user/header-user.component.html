@@ -1,0 +1,28 @@
+<nav class="navbar " style="background-color: dimgray">
+  <a class="navbar-brand" href="#" style="margin-left: 30px; color: #989c9e; font-size: 50px; letter-spacing: 20px"><h3>
+    Yolo</h3></a>
+  <ul class="nav justify-content-end" style="margin-left: -200px">
+    <li class="nav-item">
+      <a class="nav-link active" routerLink="/upload">Upload</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" routerLink="/films">Films</a>
+    </li>
+
+    <div class="dropdown">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/categories">Catégories</a>
+      </li>
+      <div class="dropdown-content">
+        <a *ngFor="let itemCategory of categoriesList" href="/category/{{itemCategory.id}}" >{{itemCategory.title}}</a>
+      </div>
+    </div>
+
+  </ul>
+<!--  <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" style="width: 500px;margin-left: -500px;" [(ngModel)]="title" (keypress)="sendData()">-->
+
+
+  <u style="margin-right: 20px"><h6 [ngStyle]="{color :'coral', cursor:'pointer'}" (click)="destroySession()">Déconnexion</h6> </u>
+</nav>
+
+

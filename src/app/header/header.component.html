@@ -1,0 +1,35 @@
+<nav class="navbar " style="background-color: dimgray">
+  <a class="navbar-brand" href="#" style="margin-left: 30px; color: #989c9e; font-size: 50px; letter-spacing: 20px"><h3>
+    Yolo</h3></a>
+
+  <form class="d-flex" style="display: flex; justify-content: center; align-content: center">
+<!--    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 500px">
+    <button class="btn btn btn-outline-success" type="submit"
+            style="background-color: dimgray; border-color: burlywood; color: white; margin-right: 500px">Search
+    </button>-->
+    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group" style="margin-right: 20px">
+
+      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" (click)="open(contentAuth)">
+      <label class="btn btn-outline-dark" for="btncheck2">Se connecter</label>
+
+      <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off" (click)="open(content)">
+      <label class="btn btn-outline-dark" for="btncheck1" style="color: red">Créer un compte</label>
+
+
+    </div>
+  </form>
+
+</nav>
+
+
+<!--<app-create-account *ngIf="display === true"></app-create-account>-->
+
+<ng-template #content>
+  <app-create-account></app-create-account>
+</ng-template>
+
+<ng-template #contentAuth>
+  <app-authentification></app-authentification>
+</ng-template>
+
+

@@ -1,0 +1,104 @@
+<form #f="ngForm" >
+  <div class="container">
+    <br>
+    <h3>Rejoindre YOLO</h3>
+
+
+    <div class="div_nom">
+      <label for="edit_nom">
+        Nom :
+      </label>
+      <input type="text" class="form-control" name="nom" id="edit_nom"
+             placeholder="Nom" required="required" autocapitalize="off" autocomplete="off"
+             autocorrect="off" autofocus="autofocus" [(ngModel)]="user.nom" #name="ngModel">
+    </div>
+    <div class="alert alert-danger" *ngIf="name.invalid && name.touched">
+      Champ obligatoire
+    </div>
+    <br>
+
+    <div class="div_prenom">
+      <label for="edit_prenom">
+        Prénom :
+      </label>
+      <input type="text" class="form-control" name="email" id="edit_prenom"
+             placeholder="Prénom" required="required" autocapitalize="off" autocomplete="off"
+             autocorrect="off" autofocus="autofocus" [(ngModel)]="user.prenom" #prenom="ngModel">
+    </div>
+    <div class="alert alert-danger" *ngIf="prenom.invalid && prenom.touched">
+      Champ prénom obligatoire
+    </div>
+    <br>
+
+    <div class="div_username">
+      <label for="edit_username">
+        Username :
+      </label>
+      <input type="text" class="form-control" name="email" id="edit_username"
+             placeholder="Username" required="required" autocapitalize="off" autocomplete="off"
+             autocorrect="off" autofocus="autofocus" [(ngModel)]="user.username" #username="ngModel" pattern="[A-Za-z0-9_]{1,15}">
+    </div>
+    <div class="alert alert-danger" *ngIf="username.invalid && username.touched">
+      <div *ngIf="username.errors.required">
+        Champ obligatoire
+      </div>
+
+      <div *ngIf="username.errors.pattern">
+        Uniquement les lettres, les chiffres et le trait de soulignement.
+        Username ne doit pas dépasser quinze (15) caractères
+      </div>
+
+    </div>
+    <br>
+    <div class="div_editmail">
+      <label for="edit_email">
+        Adresse e-mail :
+      </label>
+      <input type="text" class="form-control" name="edit_email" id="edit_email" pattern="[a-zA-Z0-9-_]+@[a-zA-Z]+\.[a-zA-Z]{2,4}$"
+             placeholder="Saisissez votre adresse e-mail" required="required" autocapitalize="off"
+             autocomplete="off" autocorrect="off" autofocus="autofocus" [(ngModel)]="user.adresse" #email="ngModel">
+    </div>
+
+    <div class="alert alert-danger" *ngIf="email.invalid && email.touched">
+      <div *ngIf="email.errors.required">
+        Adresse mail obligatoire
+      </div>
+
+      <div *ngIf="email.errors.pattern">
+        Adresse non valide
+      </div>
+
+    </div>
+
+    <br>
+    <div class="div_editpassword">
+      <label for="edit_password">
+        Mot de passe :
+      </label>
+      <input type="password" class="form-control" name="edit_password" id="edit_password" placeholder="Créez un mot de passe"
+             required="required" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" [(ngModel)]="user.password">
+    </div>
+    <br>
+    <div class="div_ville">
+      <label for="edit_ville">
+        Ville :
+      </label>
+      <input type="text" class="form-control" name="edit_ville" id="edit_ville" placeholder="Votre Ville"
+             required="required" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" [(ngModel)]="user.ville">
+    </div>
+    <br>
+    <br>
+    <div class="div_about">
+      <label for="edit_about">
+        Bio :
+      </label>
+      <textarea class="form-control" name="edit_ville" id="edit_about" placeholder="Décrivez-vous en quelques mots seulement pour vous présenter au monde entier."
+                rows="5" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="autofocus" [(ngModel)]="user.bio"></textarea>
+    </div>
+    <br>
+
+    <button class="btn btn-primary" style="float: right" [disabled]="f.invalid" (click)="sendData()">Créer un compte</button>
+    <br>
+    <br>
+  </div>
+</form>

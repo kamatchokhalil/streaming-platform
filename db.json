@@ -1,0 +1,283 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "nom": "kamatcho",
+      "prenom": "khalil",
+      "username": "kamatcho007",
+      "password": "pass001",
+      "adresse": "cite ibn khaldoun",
+      "ville": "Tunis",
+      "bio": "ceci est un test"
+    },
+    {
+      "id": 2,
+      "nom": "admin",
+      "prenom": "khalil",
+      "username": "admin",
+      "password": "admin",
+      "adresse": "cite ibn khaldoun",
+      "ville": "Tunis",
+      "bio": "ceci est un test"
+    },
+    {
+      "nom": "aaa",
+      "prenom": "aaa",
+      "username": "aaa",
+      "adresse": "aaa",
+      "password": "aaa",
+      "ville": "aaaa",
+      "id": 3
+    },
+    {
+      "nom": "chayma",
+      "prenom": "chayma",
+      "username": "chayma",
+      "adresse": "chayma",
+      "password": "chayma",
+      "ville": "chayma",
+      "bio": "chayma",
+      "id": 4
+    }
+  ],
+  "Films": [
+    {
+      "id": 1,
+      "categorieId": 1,
+      "title": "Zone hostile",
+      "summary": "Harp est un pilote de drone, qui est déployé dans une zone militarisée et meurtrière. Avec son supérieur, le capitaine Leo, les deux hommes travaillent ensemble pour empêcher une attaque nucléaire. Cependant, Harp découvre rapidement que Leo n'est pas un soldat normal, mais un androïde très développé.",
+      "url": "https://www.youtube.com/embed/yIIVfylCso0",
+      "duration": "01:53:07",
+      "quality": "1080p",
+      "dateSortie": "24 mars 2021",
+      "trans": true,
+      "rate": 97,
+      "nbrVues": 6562
+    },
+    {
+      "id": 2,
+      "categorieId": 52,
+      "title": "Big Buck Bunn",
+      "summary": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\\n\\nLicensed under the Creative Commons Attribution license\\nhttp://www.bigbuckbunny.org",
+      "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "duration": "01:53:07",
+      "quality": "1080p",
+      "dateSortie": "24 mars 2021",
+      "trans": true,
+      "rate": 97,
+      "nbrVues": 6557
+    },
+    {
+      "id": 3,
+      "categorieId": 52,
+      "title": "Godzilla vs. Kong",
+      "summary": "تدور الأحداث حول المواجهة المنتظرة والحاسمة التي ستقع بين كونج العظيم وجودزيلا التي لا يمكن إيقافها، كل ذلك والعالم يرى ويراقب من منهم سيكون ملك كل الوحوش.",
+      "url": "https://www.youtube.com/embed/odM92ap8_c0",
+      "duration": "01:53:07",
+      "quality": "1080p",
+      "dateSortie": "24 mars 2021",
+      "trans": true,
+      "rate": 97,
+      "nbrVues": 6555
+    },
+    {
+      "id": 4,
+      "categorieId": 52,
+      "title": "Godzilla vs. Kong",
+      "summary": "تدور الأحداث حول المواجهة المنتظرة والحاسمة التي ستقع بين كونج العظيم وجودزيلا التي لا يمكن إيقافها، كل ذلك والعالم يرى ويراقب من منهم سيكون ملك كل الوحوش.",
+      "url": "https://www.youtube.com/embed/odM92ap8_c0",
+      "duration": "01:53:07",
+      "quality": "1080p",
+      "dateSortie": "24 mars 2021",
+      "trans": true,
+      "rate": 97,
+      "nbrVues": 6555
+    },
+    {
+      "id": 5,
+      "categorieId": 52,
+      "title": "Godzilla vs. Kong",
+      "summary": "تدور الأحداث حول المواجهة المنتظرة والحاسمة التي ستقع بين كونج العظيم وجودزيلا التي لا يمكن إيقافها، كل ذلك والعالم يرى ويراقب من منهم سيكون ملك كل الوحوش.",
+      "url": "https://www.youtube.com/embed/odM92ap8_c0",
+      "duration": "01:53:07",
+      "quality": "1080p",
+      "dateSortie": "24 mars 2021",
+      "trans": true,
+      "rate": 97,
+      "nbrVues": 6555
+    },
+    {
+      "id": 6,
+      "categorieId": 52,
+      "title": "Godzilla vs. Kong",
+      "summary": "تدور الأحداث حول المواجهة المنتظرة والحاسمة التي ستقع بين كونج العظيم وجودزيلا التي لا يمكن إيقافها، كل ذلك والعالم يرى ويراقب من منهم سيكون ملك كل الوحوش.",
+      "url": "https://www.youtube.com/embed/odM92ap8_c0",
+      "duration": "01:53:07",
+      "quality": "1080p",
+      "dateSortie": "24 mars 2021",
+      "trans": true,
+      "rate": 97,
+      "nbrVues": 6555
+    },
+    {
+      "url": "C:\\127.0.0.1:4300\\Black - 25762.mp4",
+      "categorieId": 1,
+      "title": "black",
+      "dateSortie": "2021-05-22",
+      "summary": "black film",
+      "id": 8
+    },
+    {
+      "url": "C:\\fakepath\\Blood Check - 69527.mp4",
+      "title": "Blood",
+      "dateSortie": "2021-05-27",
+      "summary": "Blood film",
+      "trans": true,
+      "id": 9
+    },
+    {
+      "url": "blob:http://localhost:4200/6c84510d-e5b4-426e-8cb8-008eab99fdb2",
+      "categorieId": 1,
+      "title": "aaa",
+      "dateSortie": "2000-05-05",
+      "summary": "aaa",
+      "trans": true,
+      "id": 10
+    },
+    {
+      "url": "blob:http://localhost:4200/00aec80f-85e6-4026-91d7-8a3fe605db79",
+      "categorieId": 1,
+      "title": "aaaa",
+      "dateSortie": "2021-05-15",
+      "summary": "aaaa",
+      "trans": true,
+      "id": 11
+    },
+    {
+      "url": "blob:http://localhost:4200/415c4fec-a85b-468b-85e2-459b88cfea8d",
+      "categorieId": 1,
+      "trans": false,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "quality": "1080p",
+      "id": 12
+    },
+    {
+      "url": "blob:http://localhost:4200/439f7b24-cc60-4316-9be7-48a0633ac7a0",
+      "categorieId": 1,
+      "title": "aaa",
+      "trans": false,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "quality": "1080p",
+      "id": 13
+    },
+    {
+      "categorieId": 1,
+      "title": "aaa",
+      "url": "blob:http://localhost:4200/d550c97a-dc0b-47b9-9f00-1c2c02fbb90a",
+      "trans": false,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "quality": "1080p",
+      "dateSortie": "Wed May 12 2021 21:46:36 GMT+0200 (Central European Summer Time)",
+      "id": 14
+    },
+    {
+      "categorieId": 1,
+      "url": "blob:http://localhost:4200/c39f201c-9720-48ef-842f-96e6ed703163",
+      "title": "aaaaa",
+      "trans": false,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "quality": "1080p",
+      "dateSortie": "12",
+      "id": 15
+    },
+    {
+      "categorieId": 1,
+      "url": "blob:http://localhost:4200/55222220-cdb4-4433-87cd-cc39c328d3f7",
+      "title": "aaa",
+      "dateSortie": "2021-05-13",
+      "summary": "aaa",
+      "quality": "1080p",
+      "trans": true,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "id": 16
+    },
+    {
+      "categorieId": 1,
+      "url": "blob:http://localhost:4200/a3e531bb-0432-40eb-844d-8f89c96a04b0",
+      "summary": "aaaa",
+      "quality": "3",
+      "trans": false,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "id": 17
+    },
+    {
+      "url": "blob:http://localhost:4200/1a4c8d94-aecf-4636-b611-de55c34dee56",
+      "categorieId": 1,
+      "title": "kama",
+      "summary": "kamatcho",
+      "quality": "2",
+      "dateSortie": "2021-05-16",
+      "trans": true,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 0,
+      "id": 18
+    },
+    {
+      "url": "https://www.youtube.com/embed/_vxOwEl4qCQ",
+      "categorieId": 2,
+      "title": "El Castro x A.L.A - TMANI FIK / قاعدة فقعدة",
+      "dateSortie": "2021-05-14",
+      "quality": "720p",
+      "trans": false,
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 2,
+      "id": 19,
+      "summary": "El Castro x A.L.A - TMANI FIK / قاعدة فقعدة\n3 949 754 vues•13 févr. 2016\n\n20 K\n\n820\n\nPARTAGER\n\nENREGISTRER\n"
+    },
+    {
+      "url": "https://www.youtube.com/embed/iap9peU9ZrU",
+      "categorieId": 2,
+      "title": "El Castro x A.L.A - لوج علاش",
+      "dateSortie": "2021-05-14",
+      "summary": "ZZH.5\n307 k abonnés\nBeat by Mahdi Machfar\nMixtape:  crows",
+      "trans": false,
+      "quality": "1080p - HD",
+      "duration": "00:00:00",
+      "rate": 0,
+      "nbrVues": 1,
+      "id": 20
+    }
+  ],
+  "Categorie": [
+    {
+      "id": 1,
+      "title": "Cinéma d'auteur",
+      "description": "Le film d'auteur est une expression utilisée pour qualifier l'ensemble des films d'un réalisateur ou un scénariste reflétant sa personnalité artistique.",
+      "nbrOfFilms": "20",
+      "globalRate": 97,
+      "nbrVisite": 300
+    },
+    {
+      "id": 2,
+      "title": "Cinéma fantastique",
+      "description": "Le cinéma fantastique est un genre cinématographique regroupant des films faisant appel au surnaturel, à l'horreur, à l'insolite ou aux monstres. L’intrigue se fonde sur des éléments irrationnels, ou irréalistes.",
+      "nbrOfFilms": "90",
+      "globalRate": 97,
+      "nbrVisite": 602
+    }
+  ]
+}

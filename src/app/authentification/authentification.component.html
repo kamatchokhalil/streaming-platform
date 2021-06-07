@@ -1,0 +1,39 @@
+<div class="container">
+  <br>
+  <h3>Connectez-vous à YOLO</h3>
+<form #f="ngForm">
+  <div class="div_username">
+    <label for="edit_username">
+      Username :
+    </label>
+    <input type="text" class="form-control" name="email" id="edit_username"
+           placeholder="Username" required="required" autocapitalize="off" autocomplete="off"
+           autocorrect="off" autofocus="autofocus" [(ngModel)]="user.username" #username="ngModel">
+  </div>
+
+  <div class="alert alert-danger" *ngIf="username.invalid && username.touched">
+    Saisissez votre username
+  </div>
+
+
+  <br>
+  <div class="div_password">
+    <label for="password">
+      Mot de passe :
+    </label>
+    <input type="password" class="form-control" name="edit_password" id="password" placeholder="password"
+           required="required" autocapitalize="off" autocomplete="off" autocorrect="off"
+           autofocus="autofocus" [(ngModel)]="user.password" #password="ngModel">
+  </div>
+
+  <div class="alert alert-danger" *ngIf="password.invalid && password.touched">
+    Saisissez votre mot de passe
+  </div>
+
+<br>
+  <button class="btn btn-primary" [disabled]="f.invalid" (click)="authentification()">Se connecter</button>
+  <br>
+  <br>
+</form>
+</div>
+
